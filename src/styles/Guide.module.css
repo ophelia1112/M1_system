@@ -1,0 +1,99 @@
+.MenuOuter{
+    width:220px;
+    height:100vh;
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: rgba(60,60,60,0.2) solid 1px;
+
+}
+
+.logoTitle{
+    padding-top: 8%;
+    display:flex;
+    height:13%;
+    color:rgba(60,60,60,1);
+    font-size:1.8vw;
+    font-weight:bold;
+    align-items: center;
+    justify-content: center;
+}
+.logoTitle img{
+    width:26%;
+    padding:2%;
+}
+.newsGuide{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    color:rgba(60,60,60,1);
+    padding-top: 26%;
+}
+.newsGuideTitle{
+    font-size:1.4vw;
+    font-weight:bold;
+    padding:5% 10%;
+    color:rgba(60,60,60,1);
+}
+.newsGuides{
+    font-size:1.1vw;
+    padding:6% 16%;
+    color:rgba(60,60,60,0.9);
+}
+.newsGuides:hover{
+    background: rgba(60,60,60,0.1);
+    cursor: pointer;
+    border-radius: 10px;
+    color:rgba(60,60,60,1);
+}
+.records{
+    color:rgba(60,60,60,1);
+    font-size: 1.2vw;
+    font-weight: bold;
+    padding:5% 10%;
+}
+.records:hover{
+    background: rgba(60,60,60,0.1);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.personalMenu{
+    color:rgba(60,60,60,1);
+    font-size: 1.3vw;
+    font-weight: bold;
+    padding:5% 10%;
+    margin-bottom:10%;
+
+}
+.personalMenu:hover{
+    background: rgba(60,60,60,0.1);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.MemberGuide{
+    position:absolute;
+    left:100%;
+    bottom:3%;
+    background:rgba(255,255,255,1);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    width: 200px;
+    z-index: 999;
+    backdrop-filter: blur(12px);
+    font-size:1.2vw;
+    overflow: hidden;
+}
+.MemberGuides{
+    font-size:1.1vw;
+    padding:6% 12%;
+    color:rgba(60,60,60,0.9);
+}
+.MemberGuides:hover{
+    cursor: pointer;
+    background: rgba(60,60,60,0.1);
+    border-radius: 15px;
+}
+
+

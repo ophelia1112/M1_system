@@ -1,0 +1,118 @@
+.OuterContainer{
+    width: calc(100% - 220px);
+    height: 70px;
+    display: flex;
+    position:fixed;
+    top:0;
+    right:0;
+    left:220px;
+
+
+}
+
+.ModuleContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.models{
+    display: flex;
+    align-items: center;
+    padding:4px 20px;
+    position: relative;
+}
+.modelChoice{
+    padding:10px 50px;
+    color:rgba(60,60,60,1);
+    font-size: 20px;
+}
+.modelChoice:hover{
+    background: rgba(60,60,60,0.1);
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.modelChoose{
+    width:200px;
+    position: absolute;
+    top: 90%;
+    left:30%;
+    background: rgba(255,255,255,1);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    backdrop-filter: blur(8px);
+    overflow: hidden;
+}
+
+.modelOptions{
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.modelOptions:hover{
+    background: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+
+}
+.modelName{
+    font-size: 16px;
+    color: rgba(60,60,60,1);
+}
+.modelDesc{
+    font-size: 13px;
+    color: rgba(60,60,60,0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.otherSettings{
+    display: flex;
+    align-items: center;
+
+    padding:5px 20px;
+    gap:10px;
+
+}
+.tutorial{
+    display: flex;
+    align-items: center;
+    padding:3px;
+}
+.tutorial:hover{
+    background: rgba(60,60,60,0.1);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.language{
+    display: flex;
+    align-items: center;
+    padding:5px;
+}
+.language:hover{
+    background: rgba(60,60,60,0.1);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.settings{
+    display: flex;
+    align-items: center;
+    padding:4px;
+}
+.settings:hover{
+    background: rgba(60,60,60,0.1);
+    cursor: pointer;
+    border-radius: 10px;
+}
