@@ -25,7 +25,7 @@ export default function Guide() {
     <div className={styles.MenuOuter}>
       <div className={styles.mainGuide}>
         <div className={styles.logoTitle}>
-          <img src="../../public/layoutImg/logo.png" alt="" />
+          <img src="/layoutImg/logo.png" alt="" />
           <p>M1 System</p>
         </div>
 
