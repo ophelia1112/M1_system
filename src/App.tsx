@@ -1,6 +1,6 @@
 
 import "./App.css";
-import Guide from '../../system_m1/src/layout/Guide.tsx'
+import Guide from './layout/Guide.tsx'
 import Outputarea from "./layout/OutputArea.tsx";
 
 
